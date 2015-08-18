@@ -1,0 +1,44 @@
+body {
+    background-color: #29d;
+    font: 18px/24px Arial, Tahoma, Verdana, sans-serif;
+}
+
+header {
+    background-color: #DDD;
+}
+
+footer {
+    background-color: #DDD;
+}
+
+#wrapper {
+    background-color: white;
+    padding: 0 23px; /* keep this if you want a background color on your wrapper where this color displays to the left and right of your section's content */
+    
+    
+    /* if you want to see the GRID, then uncomment the next line */
+    
+/*	background: url(../images/978-grid.png) repeat-y center; */
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 3;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 3;
+}
+img {
+    border-radius: 25px;
+    border: 2px #bbb solid;
+    box-sizing: border-box;
+}   
+

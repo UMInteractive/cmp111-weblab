@@ -1,0 +1,90 @@
+
+/* 978.gs column widths for a 12-column layout 
+where each column is 54px and each gutter is 30px
+-----------------------------------------------------------------------------*/
+
+.col1 { width: 54px; }
+.col2 { width: 138px; }
+.col3 { width: 222px; }
+.col4 { width: 306px; }
+.col5 { width: 390px; }
+.col6 { width: 474px; }
+.col7 { width: 558px; }
+.col8 { width: 642px; }
+.col9 { width: 726px; }
+.col10 { width: 810px; }
+.col11 { width: 894px; }
+.col12 { width: 978px; }
+
+
+/* The body selector sets the default for everything in the body element, effectively the whole webpage.
+-----------------------------------------------------------------------------*/
+body {
+	width: 100%;
+}
+
+/* Put everything inside <div id="wrapper"> - this gives your website a fixed width of 978px that is centered in your browser window (when the browser width is 978 px or more) */
+
+#wrapper {
+	width: 978px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+	overflow: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+/* Content section
+-----------------------------------------------------------------------------*/
+
+/* tells img elements to allow things to appear next to it and to position <img> elements to the leftmost available position; also for each image, place 30px of space to its right (margin-right: 30px;) */
+img {
+    float: left;
+    margin-right: 30px;
+}
+
+/* tells p elements to allow things to appear next to it and to position <p> elements to the leftmost available position */
+p {
+    float: left;                
+}
+
+/* for each li element, let the browser calculate its height (using overflow: auto;), always start on a new line (using clear:both;), and always put 30px of space below (margin-bottom: 30px;) */ 
+ol li {
+    overflow: auto;
+    clear: both;
+    margin-bottom: 30px;
+/*
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+*/
+}
+
+/* for the first li (the first li child of its parent element), add 30px of space above it  */
+li:first-child {
+    margin-top: 30px;
+}
+
+
+/* 	    If you are floating elements next to each other, then all elements 
+        (except the first one) need a margin-left: 30px;
+
+        Refer to 978.gs to visually see why this is.
+*/
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+	clear: both;
+	overflow: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
