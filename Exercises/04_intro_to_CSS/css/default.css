@@ -1,0 +1,37 @@
+
+/* 978.gs column widths for a 12-column layout 
+where each column is 54px and each gutter is 30px
+-----------------------------------------------------------------------------*/
+
+.col1 { width: 54px; }
+.col2 { width: 138px; }
+.col3 { width: 222px; }
+.col4 { width: 306px; }
+.col5 { width: 390px; }
+.col6 { width: 474px; }
+.col7 { width: 558px; }
+.col8 { width: 642px; }
+.col9 { width: 726px; }
+.col10 { width: 810px; }
+.col11 { width: 894px; }
+.col12 { width: 978px; }
+
+/*-----------------------------------------------------------------------------*/
+
+#wrapper {
+	width: 978px;
+	margin: 0 auto;
+	overflow: auto;
+    background-color: white;  
+}
+
+h1 {
+    padding: 15px;   
+}
+
+
+p, img {
+    padding: 10px 20px;
+}
+
+

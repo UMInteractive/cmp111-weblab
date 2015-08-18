@@ -1,0 +1,78 @@
+body {
+    font: 14px/26px Arial, Tahoma, Verdana, sans-serif;
+    background-color: red;
+    
+/*
+    font-size: 14px;
+    font-family: Arial, Tahoma, Verdana, sans-serif;
+    line-height: 26px;
+*/
+}
+
+
+h1, h2, h3 {
+    text-align: center;   
+}
+
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: red;
+    background-color: black;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: red;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;      
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 2;
+/*    padding: 10px auto 30px;*/
+}
+
+
+img {
+    display: block;
+    float: left;
+    margin-right: 30px;
+    clear: left;
+    width: 138px;
+}
+
+hr { 
+    clear: both;
+    padding: 0 20px;
+    width: 80%;
+/*    height: 10px;*/
+    border-color: red;
+}
+
+p::first-letter { 
+    font-size: 1.5em;
+    color: #777;
+}
+
+p {
+    font-family: "Times New Roman", Georgia, serif;
+}
+
+cite {
+    font-style: italic;
+}
+
+/* LoVe HA */
+a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+
+/*
+a:active {
+ color: green;   
+}*/
